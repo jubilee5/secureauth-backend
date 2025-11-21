@@ -27,16 +27,20 @@ It supports registration, login, password hashing, JWT generation, and protected
 
 ---
 
-## 📁 Project structure (important files)
+## 📁 Project Structure (important files)
+
+```
 src/
-└─ main/
-└─ java/
-└─ com.secureauth.secureauth_backend/
-├─ controller/ # REST controllers (UserController)
-├─ security/ # SecurityConfig, Jwt filter, CustomUserDetailsService
-├─ util/ # JwtUtil
-├─ model/ # User entity
-└─ repository/ # UserRepository
+└── main/
+    └── java/
+        └── com.secureauth.secureauth_backend/
+            ├── controller/          # REST controllers (UserController)
+            ├── security/            # SecurityConfig, Jwt filter, CustomUserDetailsService
+            ├── util/                # JwtUtil
+            ├── model/               # User entity
+            └── repository/          # UserRepository
+```
+
 
 
 ---
