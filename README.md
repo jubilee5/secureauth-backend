@@ -53,14 +53,14 @@ src/
 
 **Run**
 ```bash
-git clone https://github.com/<your-username>/secureauth-backend.git
+git clone https://github.com/jubilee5/secureauth-backend.git
 cd secureauth-backend
 mvn clean spring-boot:run
 
 
 The app starts at: http://localhost:8080
 
-📬 API Endpoints
+**📬 API Endpoints**
 Public
 
 POST /api/users — Register user
@@ -68,8 +68,8 @@ Example request body:
 
 {
   "name": "Jubilee",
-  "email": "jubilee@example.com",
-  "password": "secret123"
+  "email": "jubileeSharma@ABC.com",
+  "password": "Password123"
 }
 
 
@@ -77,14 +77,14 @@ POST /api/users/login — Login (returns JWT token)
 Example request body:
 
 {
-  "email": "jubilee@example.com",
-  "password": "secret123"
+  "email": "jubileeSharma@ABC.com",
+  "password": "Password123"
 }
 
-Protected (requires Authorization: Bearer <token>)
+**Protected (requires Authorization: Bearer <token>)**
 
 GET /api/users/me — Return authenticated user info
 
-Header for protected requests
+**Header for protected requests**
 
 Authorization: Bearer <your_jwt_token>
